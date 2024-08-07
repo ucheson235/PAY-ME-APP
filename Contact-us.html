@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Contact-us.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="contact-us-container">
+        <div class="contact-us-image-section">
+            <img src="./pay-me-logo.png" alt="Logo" class="contact-us-logo">
+            <div class="contact-us-social-icons">
+                <img src="./facebook.png" alt="Facebook" class="contact-us-social-icon">
+                <img src="./tiwtter.png" alt="Twitter" class="contact-us-social-icon">
+                <img src="./IG.png" alt="Instagram" class="contact-us-social-icon">
+                <img src="./gmail.png" alt="Gmail" class="contact-us-social-icon">
+            </div>
+        </div>
+        <div class="contact-us-form-section">
+            <h1 class="contact-us-title">Let’s Chat, Reach out to us</h1>
+            <p class="contact-us-description">Have questions or feedback? We’re here to help. Send us a message and we will respond within 24 hours.</p>
+            <form action="/submit_form" class="contact-us-form" id="contactUsForm">
+                <label for="full_name" class="contact-us-label" >Full Name</label>
+                <input type="text" id="contactUsFullName" name="full_name" class="contact-us-input" required>
+                
+                <label for="email" class="contact-us-label">Email Address</label>
+                <input type="email" id="contactUsEmail" name="email" class="contact-us-input" required>
+                
+                <label for="phone" class="contact-us-label">Phone Number</label>
+                <input type="tel" id="contactUsPhone" name="phone" class="contact-us-input" required>
+                
+                <label for="message" class="contact-us-label">Message</label>
+                <textarea id="contactUsMessage" name="message" rows="4" class="contact-us-textarea" required></textarea>
+                <div id="contactUsFormMessage">
+
+                </div>
+                
+                <div class="contact-us-live-chat">
+                    <img src="./live-chart-logo.png" alt="Live Chat" class="contact-us-live-chat-logo">
+                    <button type="submit" class="contact-us-btn" id="contactUsBtn">Send A Message</button>
+                </div>
+                
+                
+            </form>
+            <h2 class="contact-us-live-chat-title">Live Chat</h2>
+            
+        </div>
+        
+    </div>
+
+    <script src="./contact-us.js"></script>
+</body>
+</html>
