@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.sign-up-container {
+    display: flex;
+    width: 800px; /* Adjust width as needed */
+    max-width: 100%;
+    height: 600px; /* Adjust height as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sign-up-image-section {
+    flex: 1;
+    background-image: url('./sign-up-img.png'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up-form-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9); /* semi-transparent white background */
+}
+
+.sign-up-logo {
+    text-align: center;
+    margin: 20px;
+}
+
+.sign-up-logo img {
+    width: 100px;
+}
+
+.sign-up-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sign-up-form-group {
+    display: flex;
+    gap: 15px;
+}
+
+.sign-up-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sign-up-upload-id {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sign-up-file-input {
+    display: none;
+}
+
+.sign-up-upload-id::before {
+    content: ' ';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.sign-up-btn {
+   align-self: center;
+    width: 30%;
+    padding: 10px;
+    background-color: #0D1944;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sign-up-btn:hover {
+    background-color: #0D1944;
+}
+
+.sign-up-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #0D1944;
+}
+
+.sign-up-link {
+    color: #0D1944;
+    text-decoration: none;
+}
+
+.sign-up-link:hover {
+    text-decoration: underline;
+}
+
+.sign-up-card{
+    text-align: center;
+    margin: 10px;
+}
+
+.sign-up-form-section h2{
+    color: #0D1944;
+
+}
+
+#signUpMessage{
+    color: #E67E22;
+}
+
+
+/* Mobile view */
+@media (max-width: 767px) {
+    html{
+        background-color: #0D1944;
+    }
+
+    body{
+        background-color: transparent;
+    }
+    .sign-up-container {
+        flex-direction: column;
+        width: 500px;
+        height: 700px;
+       
+        
+    }
+    .sign-up-image-section {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sign-up-form-section {
+        padding: 20px;
+    }
+
+    .sign-up-btn {
+        width: 100%;
+    }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 1023px) {
+    html{
+        background-color: #E67E22;
+    }
+
+    body{
+        background-color: transparent;
+    }
+    .sign-up-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sign-up-image-section {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sign-up-form-section {
+        padding: 30px;
+    }
+
+    .sign-up-btn {
+        width: 50%;
+    }
+}
