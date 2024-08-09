@@ -1,0 +1,544 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*desktop screens */
+@media(min-width: 1024px) {
+.payment-secure-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    background-color: F8F8F8;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    gap: 48px;
+}
+header {
+    width: 100vw;
+    height: 40rem;
+    background-image: url("img/istockphoto-1058694620-612x612\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 160px; 
+    border-bottom-right-radius: 160px;
+
+}
+.paysec-logo {
+    width: 20.9rem;
+    height: 8rem;
+    margin-left: 10rem;
+    margin-top: 8rem;
+}
+.paysec-logo img {
+     max-width: 100%; 
+    height: auto;
+}
+.pay-sec-content {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.transaction-notice  {
+    width:  120rem;
+    height: 48.7rem;
+    padding: 8px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: inline-flex;
+}
+.transaction-notice h2 {
+    font-size: 3.981rem;
+    font-weight: 700;
+    font-family: manrope;
+    color: #162A71;
+    text-align: center;
+}
+.transaction-notice h4 {
+     text-align: center;
+     color: #1D3896;
+     font-size: 2.765rem;
+     font-family: manrope;
+     font-weight: 600;
+     line-height: 32px;
+     word-wrap: break-word;  
+}
+.transaction-id {
+    font-size: 2.304rem;
+    font-family: manrope;
+    font-weight: 600;
+    text-align: center;
+    line-height: 32px;
+    color: #162A71;
+}
+#id-num {
+    color: #E37E35;
+    font-size: 2.304rem;
+    font-family: manrope;
+    font-weight: 600;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+.progress-container {
+    position: relative;
+    width: 80.4rem;
+    height: 14.2rem;
+    padding-left: 40px;
+    font-family: manrope;
+}
+.line {
+    position: absolute;
+    height: 0.2rem;
+    background: #E37E35;
+    width: 60rem;
+    right: 7rem;
+    top: 4rem;
+}
+
+.progress-bar {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 80.125rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.step {
+    position: relative;
+
+}
+
+.step .circle {
+    position: absolute;
+    right: 7.5rem;
+    width: 4.08rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #162A71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem auto;
+    font-weight: bold;
+    color: #ffa500;
+}
+
+.step.completed .circle {
+    color: #ffa500;
+}
+
+.step.active .circle {
+    background-color: #162A71;
+}
+
+.step .label {
+    font-size: 1.92rem;
+    font-weight: 600;
+    color: #162A71;
+    text-align: center;
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+.step.active .label,
+.step.completed .label {
+    font-weight: 600;
+}
+.availbal {
+    width: 52.8rem;
+    height: 25.5rem;
+    background-color: #E37E35;
+    color: white;
+    border-radius: 30px;
+    border: 1px;
+    box-shadow: 0px 5px 15px 2px rgba(128, 128, 128, 0.55);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.availbal h6 {
+    font-family: manrope;
+    font-size: 1.92rem;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 10px;
+}
+.availbal i {
+    width: 3.733rem;
+    height: 4.2rem;
+}
+.availbal h1 {
+     font-size: 4.778rem;
+     font-weight: 700;
+     font-family: manrope;
+     line-height: 8px;
+}
+.walletid-num {
+    font-family:  manrope;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 40vh;
+    font-family: manrope;
+    margin-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.walletbal-sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 39.7rem;
+    height: 33.6rem;
+    text-align: center;
+}
+.status {
+    width: 21.1rem;
+    height: 33.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sect1 {
+    width: 39.7rem;
+    height: 14.4rem;
+    gap: 4rem;
+    padding: 8px;
+}
+.sect2 {
+    width: 39.7rem;
+    height: 14.4rem;
+    gap: 4rem;
+}
+.walletbal-sec h2{
+    font-size: 3.981rem;
+    font-weight: 600;
+    color: #162A71;
+}
+.walletbal-sec i {
+    color: #575757;
+    width: 2.667rem;
+    height: 3rem;
+}
+#fnum {
+    color: #575757;
+}
+.status1 {
+    width: 21.1rem;
+    height: 14.4rem;
+    padding: 8px 0px;
+}
+.status2 {
+    width: 21.1rem;
+    height: 14.4rem;
+    padding: 8px 0px;
+}
+.status h2 {
+    font-size: 3.981rem;
+    font-weight: 600;
+    color: #162A71;
+}
+#active {
+    color: #34C759;
+}
+#pending {
+    color: #FF3B30;
+}
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .payment-secure-container {
+        padding: 0 10px;
+        gap: 24px;
+    }
+
+    header {
+        height: 20rem;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 80px; 
+        border-bottom-right-radius: 80px;
+    }
+
+    .paysec-logo {
+        width: 10rem;
+        height: 6rem;
+        margin-left: 5rem;
+        margin-top: 4rem;
+    }
+
+    .paysec-logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pay-sec-content {
+        width: 100%;
+        padding: 0 10px;
+        gap: 16px;
+    }
+
+    .transaction-notice {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        gap: 16px;
+    }
+
+    .transaction-notice h2 {
+        font-size: 2.5rem;
+    }
+
+    .transaction-notice h4 {
+        font-size: 1.8rem;
+    }
+
+    .transaction-id, #id-num {
+        font-size: 1.8rem;
+    }
+
+    .progress-container {
+        width: 100%;
+        padding-left: 10px;
+        margin-right: 20px;
+    }
+
+    .line {
+        width: 84%;
+        left: 70px;
+    }
+
+    .progress-bar {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .step .circle {
+        width: 3rem;
+        height: 3rem;
+        right: 5rem;
+        font-size: 1.5rem;
+        margin-right: 2rem;
+    }
+
+    .step .label {
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-top: 4rem;
+    }
+
+    .availbal {
+        width: 70%;
+        height: auto;
+        padding: 10px;
+        margin-left: 5rem;
+    }
+
+    .availbal h6 {
+        font-size: 1.6rem;
+    }
+
+    .availbal h1 {
+        font-size: 3.5rem;
+    }
+
+    .walletid-num {
+        font-size: 1.8rem;
+    }
+
+    footer {
+        flex-direction: row;
+        height: auto;
+        margin-top: 3rem;
+    }
+
+    .sect1, .sect2 {
+        width: 100%;
+        height: auto;
+    }
+    .status {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .status1, .status2 {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding-left : 10rem ;
+    }
+    .walletbal-sec {
+        width: 100%;
+        height: auto;
+    }
+    .walletbal-sec h2 {
+        font-size: 1.5rem;
+    }
+
+    .status h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Tablet Devices*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .payment-secure-container {
+        padding: 0 20px;
+        gap: 32px;
+    }
+
+    header {
+        height: 35rem;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 120px; 
+        border-bottom-right-radius: 120px;
+    }
+
+    .paysec-logo {
+        width: 18rem;
+        height: 7rem;
+        margin-left: 7rem;
+        margin-top: 6rem;
+    }
+
+    .paysec-logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pay-sec-content {
+        width: 90%;
+        padding: 0 20px;
+        gap: 24px;
+    }
+
+    .transaction-notice {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        gap: 24px;
+    }
+
+    .transaction-notice h2 {
+        font-size: 3rem;
+    }
+
+    .transaction-notice h4 {
+        font-size: 2rem;
+    }
+
+    .transaction-id, #id-num {
+        font-size: 2rem;
+    }
+
+    .progress-container {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .line {
+        width: 73%;
+        right: 7rem; 
+        top: 3.5rem;
+    }
+
+    .progress-bar {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .step .circle {
+        width: 3.5rem;
+        height: 3.5rem;
+        right: 6rem;
+        font-size: 1.7rem;
+    }
+
+    .step .label {
+        font-size: 1.8rem;
+        margin-top: 4rem;
+    }
+
+    .availbal {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .availbal h6 {
+        font-size: 1.8rem;
+    }
+
+    .availbal h1 {
+        font-size: 4rem;
+    }
+
+    .walletid-num {
+        font-size: 2rem;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+        gap: 20px;
+        margin-top: 4rem;
+    }
+
+    .sect1, .sect2 {
+        width: 100%;
+        height: auto;
+    }
+    .status {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .status1, .status2 {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding-left : 10rem ;
+    }
+    .walletbal-sec {
+        width: 100%;
+        height: auto;
+    }
+
+    .walletbal-sec h2 {
+        font-size: 2rem;
+    }
+
+    .status h2 {
+        font-size: 2rem;
+    }
+}

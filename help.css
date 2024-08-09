@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*desktop screens */
+@media(min-width: 1024px) {
+.helppage {
+    display: flex;
+    flex-direction: column;
+    background-color: #DFDFDF;
+    width: 100vw;
+    height: 159.8rem;
+    text-align: center;
+    align-items: center;
+}
+.helpheadlogo {
+    width: 20.9rem;
+    height: 8rem;
+    margin-right: 105rem;
+    padding-top: 88px;
+    justify-self: flex-start;
+}
+.helpheadlogo img {
+    max-width: 100%;
+    height: auto;
+}
+.helpintro {
+     width: 100wh;
+     height: 50vh;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+     margin-top: 10rem;
+}
+.helpintro1 {
+    width: 63.7rem;
+    height: 5.2rem;
+}
+.helpintro1 h2 {
+     width: 61.7rem;
+     height: 3.2rem;
+     font-family: manrope;
+     font-size: 3.981rem;
+     font-weight: 800;
+     text-align: center;
+     line-height: 32px;
+}
+#intro1blue {
+    color: #162A71;
+}
+#intro1orange {
+    color: #E37E35;
+}
+.helpintro2 {
+    width: 49.7rem;
+    height: 5.2rem;
+   
+}
+.helpintro2 h6 {
+    font-family: manrope;
+    font-size: 1.92rem;
+    font-weight: 600;
+    color: #162A71;
+}
+.helpsearch {
+    width: 91.2rem;
+    height: 7.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+#searchtab {
+    width: 91.2rem;
+    height: 7.4rem;
+    padding: 1.1rem;
+    background-color: none;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border: none;
+    position: relative;
+    background-color: #BABABA;
+}
+.helpsearch img {
+    position: absolute;
+    max-width: 3%;
+    top: 415px;
+    left: 610px;
+    z-index: 1;
+    color: #162A71;
+}
+::placeholder {
+    font-size: 1.92rem;
+     font-weight: 600;
+     line-height: 32px;
+     color: #162A71;
+}
+
+.helptab {
+    width: 128rem;
+    height: 82.4rem;
+    flex-direction: column;
+    top: 566px;
+    left: 35px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Another  box in the help tab */
+.help-details {
+    width: 121.6rem;
+    height: 69.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+.helptop {
+    width: 121.6rem;
+    height: 30.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.helpbottom {
+    width: 121.6rem;
+    height: 30.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+/* each container with images */
+.help-info {
+    width: 35.3rem;
+    height: 30.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.help-details img {
+    width: 35.3rem;
+    height: 23.6rem;
+    border-radius: 10px;
+}
+
+/* details under each images */
+#help-pointer1 {
+    width: 22.9rem;
+    height: 5.2rem;
+    padding: 1rem;
+}
+#help-pointer2 {
+    width: 25.3rem;
+    height: 5.2rem;
+    padding: 1rem;
+}
+#help-pointer3 {
+    width: 27.6rem;
+    height: 5.2rem;
+    padding: 1rem;
+}
+#help-pointer4 {
+    width: 10.2rem;
+    height: 5.2rem;
+    padding: 1rem;
+}
+#help-pointer5 {
+    width: 17.1rem;
+    height: 5.2rem;
+    padding: 1rem;
+}
+#help-pointer6 {
+    width: 28.1rem;
+    height: 5.2rem;
+    padding: 1rem;
+}
+.help-info a {
+    text-decoration: none;
+    color: #162A71;
+    font-family: manrope;
+    font-size: 2.76rem;
+    font-weight: 700;
+    align-items: center;
+}
+.help-info a:hover {
+      color: #E37E35;
+}
+#helpbtn {
+    margin-top: 10rem;
+    margin-left: 1000px;
+    width: 21.6rem;
+    height: 5.6rem; 
+    background-color: #162A71;
+    color: #FEFEFE;
+    font-family: manrope;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border:  none;
+    border-radius: 10px;
+}
+#helpbtn a {
+    text-decoration: none;
+    color: #FEFEFE;
+    font-family: manrope;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+#helpbtn:hover {
+    background-color: #E37E35;
+}
+}
+/* Mobile Devices*/
+@media(max-width: 767px) {
+    .helppage {
+        height: auto; 
+        padding: 10px;
+    }
+
+    .helpheadlogo {
+        width: 15rem;
+        height: 6rem;
+        margin-right: auto;
+        margin-left: 5rem;
+        padding-top: 10px;
+    }
+
+    .helpintro {
+        width: 100%;
+        height: auto;
+        margin-top: 5rem;
+        
+    }
+
+    .helpintro1 {
+        width: 124vw;
+    }
+
+    .helpintro1 h2 {
+        font-size: 2.5rem;
+    }
+
+    .helpintro2 {
+        width: 90%;
+    }
+
+    .helpintro2 h6 {
+        font-size: 1.5rem;
+    }
+
+    .helpsearch {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    #searchtab {
+        width: 100%;
+        height: auto;
+        padding: 0.8rem;
+        background-color: #BABABA;
+    }
+
+    .helpsearch img {
+        width: 20%; 
+        top: auto;
+        left: auto;
+    }
+
+    .helptab {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .help-details, .helptop, .helpbottom {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .help-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .help-details img {
+        width: 100%;
+        height: auto;
+    }
+
+    #help-pointer1, #help-pointer2, #help-pointer3, #help-pointer4, #help-pointer5, #help-pointer6 {
+        width: 100%;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .help-info a {
+        font-size: 2rem;
+    }
+
+    #helpbtn {
+        width: 10.6rem;
+        height: 3.6rem; 
+        font-size: 1.2rem;
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #helpbtn a {
+        font-size: 1.4rem;
+    }
+}
+
+/* Tablet Devices (768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .helppage {
+        height: auto; 
+        padding: 20px;
+    }
+
+    .helpheadlogo {
+        width: 18rem;
+        height: 7rem;
+        margin-right: 60rem; 
+        padding-top: 40px;
+    }
+
+    .helpintro {
+        width: 100%;
+        height: auto;
+        margin-top: 7rem;
+    }
+
+    .helpintro1 {
+        width: 80%;
+    }
+
+    .helpintro1 h2 {
+        font-size: 3rem; 
+    }
+
+    .helpintro2 {
+        width: 80%;
+    }
+
+    .helpintro2 h6 {
+        font-size: 1.8rem;
+    }
+
+    .helpsearch {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    #searchtab {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        background-color: #BABABA;
+    }
+
+    .helpsearch img {
+        width: 15%;
+        top: auto;
+        left: auto;
+    }
+
+    .helptab {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+
+    .help-details, .helptop, .helpbottom {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .help-info {
+        width: 100%;
+        height: auto;
+    }
+
+    .help-details img {
+        width: 100%;
+        height: auto;
+    }
+
+    #help-pointer1, #help-pointer2, #help-pointer3, #help-pointer4, #help-pointer5, #help-pointer6 {
+        width: 100%;
+        height: auto;
+        padding: 0.8rem;
+    }
+
+    .help-info a {
+        font-size: 2.2rem;
+    }
+
+    #helpbtn {
+        width: 21.6rem;
+        height: 5.6rem; 
+        font-size: 1.6rem;
+        margin-top: 7rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #helpbtn a {
+        font-size: 1.6rem;
+    }
+}
