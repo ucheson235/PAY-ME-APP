@@ -238,6 +238,9 @@ body {
   line-height: 42px;
   cursor: pointer;
 }
+#dashboard{
+  text-decoration: none;
+}
 
 .dashboard-image{
  margin-right: 10px;
@@ -259,6 +262,10 @@ body {
   cursor: pointer;
 }
 
+#profile{
+  text-decoration: none;
+}
+
 .profile-image{
   margin-right: 10px;
  }
@@ -277,6 +284,10 @@ body {
   justify-content: center;
   line-height: 42px;
   cursor: pointer;
+}
+
+#transaction {
+  text-decoration: none;
 }
 
 .transaction:hover{
@@ -303,6 +314,9 @@ body {
   cursor: pointer;
 
 }
+#account{
+  text-decoration: none;
+}
 
 .account-image{
  margin-right: 10px;
@@ -323,6 +337,9 @@ body {
   line-height: 42px;
   cursor: pointer;
 }
+#help{
+  text-decoration: none;
+}
 
 .help-image{
  margin-right: 10px;
@@ -342,7 +359,10 @@ body {
   justify-content: center;
   line-height: 42px;
   cursor: pointer;
+}
 
+#log-out{
+  text-decoration: none;
 }
 
 .log-out-image{
