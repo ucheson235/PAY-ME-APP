@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Manrope, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.sign-in {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 800px; 
+  margin: 5% auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-image {
+  width: 40%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sign-in-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.logo {
+  position: absolute;
+  width: 80px;
+  top: 100px;
+  left: 380px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:  40px;
+  width: 360px;
+ 
+}
+
+.form-text {
+  color: #162a71;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.signin-arrow {
+  position: absolute;
+  top: 110px;
+  left: 695px;
+  height: 10px;
+  color: #9cabdf;
+}
+
+.form-text h3 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-text p {
+  font-size: 21px;
+  font-weight: 600;
+  margin-left: -100px;
+}
+
+label, input {
+  font-size: 1.6rem;
+  color: #575757;
+
+}
+
+input {
+  border: 1px solid #162a71 ;
+  padding: 10px;
+  outline-color: #162a71; ;
+}
+
+.password-text {
+  color: #423c3c;
+  text-align: right;
+  padding-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.password-text:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.sign-in-button {
+  background-color: #162a71;
+  color:  #f8f8f8;
+  text-align: center;
+  align-items: center;
+  font-size:  18px;
+  width: 130px;
+  margin-left: 120px;
+  padding: 11px;
+  border-radius: 8px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.sign-in-button:hover {
+  background-color: #e37e35;
+  color: #fff;
+  box-shadow: 5px 10px 8px #888888;
+
+}
+
+.sign-in-account {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+.sign-in-account p {
+  color: #122a80;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.last-signin-button {
+  padding: 10px;
+  width: 120px;
+  font-size: 1.8rem;
+  border: 1px solid rgb(160, 161, 165);
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.last-signin-button:hover {
+  background-color: #122a80;
+  color: white;
+  border: none;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.extra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.extra p {
+  font-size: 1.8rem;
+  color: #918e8e;
+  padding-bottom: 30px;
+}
+
+.sign-in-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.sign-in-icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #122a80;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.sign-in-icons img:hover {
+  transform: scale(1.1);
+}
