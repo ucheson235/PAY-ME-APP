@@ -141,6 +141,9 @@ justify-content: center;
   padding: 12px;
 }
 
+#dashboard {
+  text-decoration: none;
+}
 
 .dashboard-image{
  margin-right: 10px;
@@ -161,6 +164,9 @@ justify-content: center;
   padding: 12px;
 }
 
+#profile{
+  text-decoration: none;
+}
 .profile-image{
   margin-right: 10px;
  }
@@ -180,6 +186,10 @@ justify-content: center;
   padding: 12px;
 }
 
+#transaction{
+  text-decoration: none;
+}
+
 .transaction-image{
  margin-right: 10px;
 }
@@ -197,9 +207,15 @@ justify-content: center;
   align-items: center;
   justify-content: center;
   padding: 12px;
-
 }
 
+#account{
+  text-decoration: none;
+}
+
+#account{
+  text-decoration: none;
+}
 .account-image{
  margin-right: 10px;
 }
@@ -217,6 +233,9 @@ justify-content: center;
   align-items: center;
   justify-content: center;
   padding: 12px;
+}
+#help{
+  text-decoration: none;
 }
 
 .help-image{
@@ -237,6 +256,10 @@ justify-content: center;
   justify-content: center;
   padding: 12px;
 
+}
+
+#log-out{
+  text-decoration: none;
 }
 
 .log-out-image{
