@@ -10,7 +10,7 @@ html {
 /*desktop screens */
 .payment-secure-container {
     width: 100vw;
-    height: auto;
+    height: 180rem;
     display: flex;
     background-color: F8F8F8;
     flex-direction: column;
@@ -265,6 +265,24 @@ footer {
 #pending {
     color: #FF3B30;
 }
+#securebtn {
+    width: 19.2rem;
+    height: 5.6rem;
+    background-color: #162A71;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10rem;
+}
+#securebtn:hover {
+    background-color: #E37E35;
+}
+#securebtn a {
+    text-decoration: none;
+    font-size: 2.304rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
 
 /* Mobile Devices */
 @media (max-width: 767px) {
@@ -370,6 +388,7 @@ footer {
 
     footer {
         flex-direction: row;
+        justify-content: space-between;
         height: auto;
         margin-top: 3rem;
     }
@@ -401,6 +420,24 @@ footer {
 
     .status h2 {
         font-size: 1.5rem;
+    }
+    #securebtn {
+        width: 10.2rem;
+        height: 2.6rem;
+        background-color: #162A71;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5rem;
+    }
+    #securebtn:hover {
+        background-color: #E37E35;
+    }
+    #securebtn a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        color: white;
     }
 }
 
@@ -520,6 +557,7 @@ footer {
         align-items: center;
         display: flex;
         justify-content: center;
+        margin-top: 17rem;
     }
     .status1, .status2 {
         width: 100%;
@@ -538,5 +576,23 @@ footer {
 
     .status h2 {
         font-size: 2rem;
+    }
+    #securebtn {
+        width: 19.2rem;
+        height: 5.6rem;
+        background-color: #162A71;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10rem;
+    }
+    #securebtn:hover {
+        background-color: #E37E35;
+    }
+    #securebtn a {
+        text-decoration: none;
+        font-size: 2.304rem;
+        font-weight: 600;
+        text-align: center;
+        color: white;
     }
 }
