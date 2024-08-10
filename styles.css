@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Manrope, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 5px;
+  margin: 15px 150px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.logo {
+  align-self: flex-start;
+  width: 14rem;
+  margin: 15px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 155px;
+  left: 150px;
+  height: 10px;
+  color: #9cabdf;
+}
+
+.about-us h1 {
+  color: #162a71;
+  text-align: center;
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 700;
+  padding-bottom: 14px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+.about-us-text {
+  color: #1e1e1e;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.about-us-text p {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: 600;
+}
+
+.about-us-text span {
+  color: #162a71;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.vision,
+.our-mission {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.our-vision-text,
+.our-mission-text {
+  font-family: "Arial-Regular", sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #162a71;
+  text-align: left;
+  padding: 8px;
+  font-weight: 400;
+  align-items: flex-start;
+}
+
+.our-vision-text .our-mission-text h1 {
+  color: #162a71;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3.3rem;
+  font-weight: 700;
+}
+
+.our-vision-text p,
+.our-mission-text p {
+  color: #1e1e1e;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: 600;
+}
+
+.vision-image {
+  flex-shrink: 0;
+  width: 490px;
+  height: 379px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.our-mission-image {
+  flex-shrink: 0;
+  width: 490px;
+  height: 379px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.background-text {
+  font-family: "Arial-Regular", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  font-weight: 400;
+  align-items: flex-start;
+}
+
+.background-text h1 {
+  display: flex;
+  color: #162a71;
+  text-align: center;
+  font-size: 23px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.background-text p {
+  color: #1e1e1e;
+  text-align: left;
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 556;
+}
+
+.about-us-footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 130px;
+  align-items: left;
+  background-color: #0a1436;
+  width: 97vw;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.about-us-links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: left;
+  cursor: pointer;
+}
+
+.about-us-information {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7rem;
+  align-items: left;
+  cursor: pointer;
+}
+
+.about-us-support {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  align-items: left;
+  cursor: pointer;
+}
+
+.about-us-links h1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.about-us-information h1,
+.about-us-support h1{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+}
+
+.about-us-information h1{
+  margin-left: 6rem;
+}
+
+.about-us-links p {
+  font-size: 14px;
+  margin-left: 4rem;
+  line-height: 1.7;
+}
+
+.about-us-information p {
+  font-size: 1.4rem;
+  margin-left: 6rem;
+  line-height: 1.7;
+}
+
+
+.about-us-links p:hover,
+ .about-us-information p:hover,
+ .about-us-support p:hover{
+   color:  #e37e35;
+   text-decoration: underline;
+   
+}
+
+.about-us-support p {
+  font-size: 1.4rem;
+  line-height: 1.7;
+  margin-left: 13rem;
+}
+
+.about-us-socials {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+
+.about-us-socials h1{
+  color: white;
+  font-size: 1.6rem;
+ 
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 22rem;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+  .vision,
+  .our-mission {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vision-image,
+  .our-mission-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-us-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us-links,
+  .about-us-information,
+  .about-us-support,
+  .about-us-socials {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrow {
+    top: 10px;
+    left: 10px;
+  }
+
+  .about-us {
+    margin: 15px;
+  }
+
+  .logo {
+    width: 12rem;
+  }
+
+  .about-us h1 {
+    font-size: 2.4rem;
+  }
+
+  .about-us-text p,
+  .our-vision-text p,
+  .our-mission-text p,
+  .background-text p {
+    font-size: 1.8rem;
+  }
+
+  .vision-image,
+  .our-mission-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-us-footer {
+    padding-bottom: 20px;
+  }
+
+  .about-us-links h1,
+  .about-us-information h1,
+  .about-us-support h1, 
+  .about-us-socials h1 {
+    font-size: 1.4rem;
+  }
+
+  .about-us-links p,
+  .about-us-information p,
+  .about-us-support p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us h1,
+  .our-vision-text h1,
+  .our-mission-text h1,
+  .background-text h1 {
+    font-size: 2rem;
+  }
+
+  .about-us-text p,
+  .our-vision-text p,
+  .our-mission-text p,
+  .background-text p {
+    font-size: 1.6rem;
+  }
+
+  .about-us-footer {
+    padding: 2px 0;
+  }
+
+  .about-us-links h1,
+  .about-us-information h1,
+  .about-us-support h1,
+  .about-us-socials h1 {
+    font-size: 1.2rem;
+  }
+
+  .about-us-links p,
+  .about-us-information p,
+  .about-us-support p
+  {
+    font-size: 1rem;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 1rem;
+  }
+}
