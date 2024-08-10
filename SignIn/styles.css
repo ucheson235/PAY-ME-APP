@@ -36,6 +36,15 @@ body {
   padding: 20px;
 }
 
+#password-text{
+  text-decoration: none;
+}
+
+.sign-in-account a{
+  text-decoration: none;
+}
+
+
 .logo {
   position: absolute;
   width: 80px;
