@@ -8,26 +8,52 @@ html {
     font-size: 62.5%;
 }
 /*desktop screens */
-.ratings-review {
-    width: 144rem;
-    height: 184.2rem;
+.ratings-reviews {
+    width: 100vw;
+    height: 160.2rem;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: center;
     display: flex;
-    justify-content: center;
     background-color: #F8F8F8;
+}
+.ratings-header {
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
 }
 .ratinglogo {
     width: 20.889rem;
     height: 8rem;
     align-items: center;
-    margin-top: 60px;
-    margin-left: 120px;
+    
 }
 .ratinglogo img {
     max-width: 100%; 
     height: auto;
+}
+#back2dashboard {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 2px solid #162A71;
+}
+#back2dashboard a {
+    color: #162A71;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+#back2dashboard:hover {
+    background-color: #162A71;
+    color: white;
+}
+#back2dashboard:hover a {
+    color: white;
 }
 .rating-contents {
     width: 104rem;
@@ -35,7 +61,6 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 150px;
 }
 .transaction-notice  {
     width:  120rem;
@@ -240,7 +265,7 @@ html {
 
 /* mobile  screen */
 @media (max-width: 768px) {
-    .ratings-review {
+    .ratings-reviews {
         width: 100%;
         height: auto;
         padding: 0 10px;
@@ -257,6 +282,12 @@ html {
     .ratinglogo img {
         max-width: 50%;
         height: auto;
+    }
+    #back2dashboard {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 5px;
+        border: 2px solid #162A71;
     }
 
     .rating-contents {
@@ -348,7 +379,7 @@ html {
 
 /* tablets devices*/
 @media  (max-width: 1024px) {
-    .ratings-review {
+    .ratings-reviews {
         width: 100%;
         height: auto;
         padding: 0 15px;
@@ -365,6 +396,13 @@ html {
 
     .ratinglogo img {
         width: 100%;
+        height: auto;
+    }
+    #back2dashboard {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 5px;
+        border: 2px solid #162A71;
     }
 
     .rating-contents {
