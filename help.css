@@ -7,8 +7,6 @@
 html {
     font-size: 62.5%;
 }
-/*desktop screens */
-@media(min-width: 1024px) {
 .helppage {
     display: flex;
     flex-direction: column;
@@ -228,7 +226,7 @@ html {
 #helpbtn:hover {
     background-color: #E37E35;
 }
-}
+
 /* Mobile Devices*/
 @media(max-width: 767px) {
     .helppage {
@@ -237,7 +235,7 @@ html {
     }
 
     .helpheadlogo {
-        width: 15rem;
+        width: 10rem;
         height: 6rem;
         margin-right: auto;
         margin-left: 5rem;
@@ -321,9 +319,9 @@ html {
 
     #helpbtn {
         width: 10.6rem;
-        height: 3.6rem; 
+        height: 3.8rem; 
         font-size: 1.2rem;
-        margin-top: 5rem;
+        margin-top: 2rem;
         margin-left: auto;
         margin-right: auto;
     }
@@ -341,7 +339,7 @@ html {
     }
 
     .helpheadlogo {
-        width: 18rem;
+        width: 15rem;
         height: 7rem;
         margin-right: 60rem; 
         padding-top: 40px;

@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
 }
-/*desktop screens */
-@media(min-width: 1024px) {
 html {
         font-size: 62.5%;
     }
@@ -117,6 +115,7 @@ html {
     position: absolute;
 
 }
+/*content head */
 #ctnhead {
     width: 37.5rem;
     height: 4.5rem;
@@ -188,7 +187,6 @@ html {
     font-weight: 600;
     align-items: center;
 }
-}
 
 /* Mobile CSS */
 @media (max-width: 480px) {
@@ -201,10 +199,14 @@ html {
     }
 
     .faqlogo {
-        width: 16rem; 
+        width: 10rem; 
         height: auto;
         margin: 1rem; 
         padding: 5px; 
+    }
+    .faqlogo img {
+        width: 50%;
+        height: auto;
     }
 
     .faq-hero {

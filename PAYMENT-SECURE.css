@@ -8,7 +8,6 @@ html {
     font-size: 62.5%;
 }
 /*desktop screens */
-@media(min-width: 1024px) {
 .payment-secure-container {
     width: 100vw;
     height: auto;
@@ -265,7 +264,6 @@ footer {
 }
 #pending {
     color: #FF3B30;
-}
 }
 
 /* Mobile Devices */

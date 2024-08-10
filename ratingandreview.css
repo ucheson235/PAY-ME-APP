@@ -8,7 +8,6 @@ html {
     font-size: 62.5%;
 }
 /*desktop screens */
-@media(min-width: 1024px) {
 .ratings-review {
     width: 144rem;
     height: 184.2rem;
@@ -97,7 +96,7 @@ html {
     position: absolute;
     height: 0.2rem;
     background: #E37E35;
-    width: 72rem;
+    width: 60%;
     top: 25px;
     align-items: center;
 }
@@ -238,7 +237,6 @@ html {
 #ratingbtn:hover {
     background-color: #3b5fe0;
 }
-}
 
 /* mobile  screen */
 @media (max-width: 768px) {
@@ -257,7 +255,7 @@ html {
     }
 
     .ratinglogo img {
-        width: 100%;
+        max-width: 50%;
         height: auto;
     }
 
@@ -292,7 +290,8 @@ html {
     }
 
     .line {
-        width: 530%;
+        width: 53%;
+         margin-bottom: 5rem;
     }
 
     .progress-bar {
@@ -410,8 +409,8 @@ html {
     }
 
     .step .circle {
-        width: 3rem;
-        height: 2.75rem;
+        width: 4rem;
+        height: 3.75rem;
     }
 
     .step .label {
