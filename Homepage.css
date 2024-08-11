@@ -465,6 +465,8 @@ footer {
     }
 
     /* <-------------------------------> */
+
+    
  nav{
     display: none;
  }
@@ -510,25 +512,29 @@ span{
     margin-right: 20px;
 }
 
-.choose-img img{
-    width: 700px;
+#choose-img{
+    width: 500px; 
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 
 .work-div h1{
     font-size: 5rem;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
 }
 
 .work-card{
     display: block;
     text-align: center;
+    margin-left: 150px;
 }
 
 .card{
     margin-top: 50px;
     width: 300px;
+    
     
     
 }
@@ -601,17 +607,18 @@ footer {
         font-size: 2.5rem;
     }
 
-    .choose-img img{
-        width: 700px;
+    #choose-img{
+        width: 500px;
+        margin-left: 30px;
     }
 
     .choose-text h1{
-        font-size: 7rem;
+        font-size: 5rem;
     }
     
     
     .choose-text p{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     
@@ -637,6 +644,14 @@ footer {
     margin: 20px;
     
    }
+
+   .btn-div{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    
+
+}
 
     
 
