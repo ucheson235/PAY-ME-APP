@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup Transaction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d6dd08699b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="setup.css">
+</head>
+<body>
+    <div=setuppage>
+    <div class="setup-container">
+        <header>
+            <div  class="headerlogo">
+            <img src="img/payme logo.png">
+            </div>
+        </header>
+        <div class="setup-heading">
+            <a href="/index.html"> <img src="img/arrow-left-solid.svg"></a>
+            <h2> Create Transaction</i></h2>
+        </div>
+        <div class="setup-section">
+        <div class="user-staus">
+            <div class=" status">
+            <h4>User Status</h4>
+            <input type="radio" class="select" name="rad1">
+            <label> Buyer</label><br>
+            <input type="radio" class="select" name="rad1"> 
+            <label> Seller</label>
+                </div><br>
+            <form class="status2">
+                <label> Quantity of Item</label><br>
+                <input class="quantity"><br>
+                <label> Delivery Fee</label><br>
+                <input class="delivery"><br>
+                <label> Description</label><br>
+                <input class="description"><br><br>
+            </form>
+           
+            </div>
+
+                <div class="transaction-type">
+                    <div class="transaction">
+                    <h4>Transaction Type</h4>
+                        <input type="radio" class="select2" name="rad2">
+                        <label> products</label><br>
+                        <input type="radio" class="select2" name="rad2">
+                        <label> Services</label>
+                        </div>
+                    <form class="transaction2">
+                        <section class="price">
+                        <label>Price of Item/Service</label><br>
+                        <input class="pricein">
+                        </section>
+                         <div class="mode">
+                        <h4>Mode Of Payment</h4>
+                        <input type="radio" class="select3" name="rad3">
+                        <label> Pay-me wallet</label>
+                         </div>
+                        <label>User Location</label><br>
+                        <input class="pricein"><br>
+                        <label>Expected Delivery Date</label><br>
+                        <input class="pricein">
+                        </form>     
+        </div>
+            </div>
+            <div class="lastform">
+                <form class="chkbox">
+                    <input type="checkbox" class="thick">
+                    <label> I agree to Pay-Me Terms and Conditions</label>
+                    </form>
+                    <button id="btn"><a href="transactionDetails.html"> Proceed</a></button>
+                    </div>
+    </div>
+    </div>
+</body>
+</html>

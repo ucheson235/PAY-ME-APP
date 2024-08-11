@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating $ Reviews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d6dd08699b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ratingandreview.css">
+</head>
+<body>
+    <div class="ratings-reviews">
+    <div class="ratings-header">
+    <div class="ratinglogo">
+     <a href="index.html"> <img src="img/payme logo.png"> </a>
+    </div>
+    <a href="/index.html"><button id="back2dashboard">X</button></a>
+    </div>
+    <div class="rating-contents">
+        <div class="transaction-notice">
+            <h2>Your Transaction has been completed.</h2>
+        <div class="transaction-id">
+          <h5><span id="id-text">Transaction ID</span><span id="id-num">#333333</span></h5>
+        </div>
+        </div>
+        <div class="progress-container">
+            <div class="line"></div>
+            <div class="progress-bar">
+                <div class="step">
+                    <div class="circle">✓</div>
+                    <div class="label">Transaction<br>Details</div>
+                </div>
+                <div class="step active">
+                    <div class="circle">✓</div>
+                    <div class="label">Payment<br>Secured</div>
+                </div>
+                <div class="step">
+                    <div class="circle">✓</div>
+                    <div class="label">Verify<br>Transaction</div>
+                </div>
+                <div class="step completed">
+                    <div class="circle"></div>
+                    <div class="label">Transaction<br>Completed</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="feedback">
+            <h4>We value your feedback.</h4>
+        </div>
+        <div class="please-rate">
+            <div class="rating-tab">
+            <h5>Please rate your overall satisfaction with the above transaction.</h5>
+        <section id="rating">
+            <span class="star" data-rating="1">★</span>
+            <span class="star" data-rating="2">★</span>
+            <span class="star" data-rating="3">★</span>
+            <span class="star" data-rating="4">★</span>
+            <span class="star" data-rating="5">★</span>
+            </section>
+       </div>
+        <div class="transaction-commment">
+            <label> Please rate your overall satisfaction with the above transaction.</label>
+            <br>
+            <input id="comment">
+        </div>
+    </div>
+        <!--next ratings--> 
+        <div class="please-rate">
+            <div class="rating-tab">
+            <h5>Please rate your overall satisfaction with the use of the “PAY ME” for this transaction.</h5>
+            <br>
+            <section id="rating">
+            <span class="star" data-rating="1">★</span>
+            <span class="star" data-rating="2">★</span>
+            <span class="star" data-rating="3">★</span>
+            <span class="star" data-rating="4">★</span>
+            <span class="star" data-rating="5">★</span>
+            </section>
+            </div>
+        <div class="transaction-commment">
+            <label> Please provide additional comments or suggestion</label>
+            <br>
+            <input id="comment">
+        </div>
+        <br>
+        <button id="ratingbtn"><a href="/index.html">Submit</a></button>
+</div>
+</div>
+    
+    <script src="ratings.js"></script>
+</body>
+</html>
