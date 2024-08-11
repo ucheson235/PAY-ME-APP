@@ -18,8 +18,8 @@ body {
   background-image: url(./image/travelHero.png);
   position: relative;
   background-repeat: no-repeat;
-  background-size: 1220px 300px;
-  height: 50vh;
+  background-size: cover;
+  background-position: bottom;
   margin-bottom: 20px;
   z-index: 1;
 }
@@ -169,7 +169,7 @@ p {
 }
 
 .confirm-btn {
-  background-color: #243b55;
+  background-color: #11225a;
   color: #fff;
 }
 
@@ -183,7 +183,7 @@ p {
 }
 
 .dispute-btn:hover {
-  background-color: #243b55;
+  background-color: #11225a;
 }
 
 /* Media Queries for Mobile Responsiveness */
@@ -192,8 +192,16 @@ p {
     padding: 10px;
   }
 
+  .header {
+    margin: -10px;
+  }
+
+  .logo {
+    margin-left: 15px;
+  }
+
   .progress-bar {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -216,19 +224,25 @@ p {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .header {
-    margin-top: -10px;
     position: relative;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
-    width: 100vw;
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
+    margin: -10px;
   }
 
+  .progress-bar {
+    flex-direction: row;
+  }
+  .step {
+    font-size: 12px;
+  }
   .logo {
     max-width: 80px;
+    margin-left: 15px;
   }
 
   h1 {
