@@ -37,6 +37,10 @@ body {
   margin-top: 3rem;
 }
 
+.sidebar .hamburger {
+  display: none;
+}
+
 .sidebar ul {
   margin: 5rem 0 0 2rem;
   list-style-type: none;
@@ -256,11 +260,49 @@ table button:hover {
     width: 100%;
     height: auto;
     position: relative;
+    overflow: hidden;
+  }
+  .sidebar .logo {
+    text-align: left;
+    margin-top: 2rem;
+  }
+  .logo img {
+    width: 100px;
+  }
+
+  .menuburger {
+    align-items: center;
+  }
+
+  .menuburger,
+  .menuMobile {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .menuburger .menuMobile a i {
+    font-size: 1.5rem;
+  }
+  .sidebar .hamburger {
+    display: block;
+  }
+
+  .sidebar .menu {
+    display: none;
   }
 
   .main-content {
     margin-left: 0;
     padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header img {
+    width: 25px;
   }
 
   .stats {
@@ -290,10 +332,11 @@ table button:hover {
 
   .search img {
     left: 10px;
+    top: 10px;
   }
 }
 
-/* Small devices (tablets, 576px and up) */
+/* (tablets, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .container {
     flex-direction: column;
@@ -303,8 +346,38 @@ table button:hover {
     width: 100%;
     height: auto;
     position: relative;
+    overflow: hidden;
   }
 
+  .sidebar .logo {
+    text-align: left;
+    margin-top: 2rem;
+  }
+  .logo img {
+    width: 100px;
+  }
+
+  .menuburger {
+    align-items: center;
+  }
+
+  .menuburger,
+  .menuMobile {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .menuburger .menuMobile a i {
+    font-size: 1.5rem;
+  }
+  .sidebar .hamburger {
+    display: block;
+  }
+
+  .sidebar .menu {
+    display: none;
+  }
   .main-content {
     margin-left: 0;
     padding: 10px;
@@ -327,16 +400,17 @@ table button:hover {
 
   .recent-activity .recent {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .recent input {
-    width: 100%;
+    width: 25rem;
     margin-top: 10px;
   }
 
   .search img {
     left: 10px;
+    top: 10px;
   }
 }
 
