@@ -185,7 +185,11 @@ p {
 .dispute-btn:hover {
   background-color: #11225a;
 }
-
+.dispute-btn a,
+.confirm-btn a {
+  text-decoration: none;
+  color: #fff;
+}
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
   .container {
