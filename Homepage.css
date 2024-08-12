@@ -38,11 +38,9 @@ nav{
 .pay-me{
  color: #0D1944;
   text-align: center;
-  font-family: Montserrat;
   font-size: 33.18000030517578px;
   line-height: 32px;
   font-weight: 600;
-  font-style: italic;
   position: relative;
 }
 
@@ -103,20 +101,16 @@ a:hover{
 
 
 .btn-sign-up:hover{
-    text-decoration: none;
-    cursor: pointer;
-   background-color: aqua;
-   color: black;
-   border: none;
-   border-radius: 10px;
-
+    text-decoration:none;
+    color: #BD692C;
+    color: #fff;
 }
 
 .btn-sign-in:hover{
-    cursor: pointer;
-   background-color: #007e8b;
-   border: none;
-   border-radius: 10px;
+    background-color: #1D3896;
+    
+  
+  
 }
 
 .navbar {
@@ -153,7 +147,7 @@ a:hover{
 /* hero styles */
 
 .hero-div {
-    background-image: url(./hero-img1.png);
+    background-image: url(/Pay-me-img/hero-img1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,12 +192,28 @@ a:hover{
     font-size: 2.5rem;
     line-height: 1.5;
     max-width: 700px;
+    margin-bottom: 50px;
     
    
 
 }
 
-.hero-text button{
+ #get-started{
+    padding: 10px 40px;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid;
+    border-color: #fff;
+    margin-top: 20px;
+    
+ }
+
+ #get-started:hover{
+    background-color:  #007AFF;
+ }
+
+/* .hero-text a{
     padding: 10px 40px;
     font-size: 3rem;
     margin-top: 30px;
@@ -211,14 +221,13 @@ a:hover{
     color: #f8f8f8;
     border: 1 solid #f8f8f8;
     border-color: #f8f8f8;
+
 }
 
 .hero button:hover{
-    background-color: #E67E22;
+    background-color: #007AFF;
     border: none;
-    border-radius: 10px;
-   
-}
+} */
 
 /* choose styles  */
 
@@ -367,9 +376,8 @@ span{
 }
 
 .read button:hover{
-    background-color: #E67E22;
+    background-color: #1D3896;
     border: none;
-    border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
