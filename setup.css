@@ -22,7 +22,7 @@ body {
 header {
     width: 70vw;
     height: 20vh;
-    background-image: url("img/headbackground.jpg");
+    background-image: url("/Pay-me-img/headbackground.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -17,7 +17,19 @@ html {
     background-color: #DFDFDF;
     font-family: manrope;
 }
+.faq-header {
+    position: relative;
+    justify-content: flex-start;
+}
+.faq-back img {
+    position: absolute;
+    width: 4%;
+    height: auto;
+    left: 6rem;
+    top: 5rem
+}
 .faqlogo {
+    position: absolute;
     width: 22.889rem;
     height: 10rem;
     padding: 10px;
@@ -189,7 +201,7 @@ html {
 }
 
 /* Mobile CSS */
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     html {
         font-size: 50%; 
     }
@@ -197,16 +209,29 @@ html {
     .FAQ {
         height: auto; 
     }
+    .faq-header {
+        position: relative;
+        justify-content: flex-start;
+    }
+    .faq-back img {
+        position: absolute;
+        width: 4%;
+        height: auto;
+        left: 6rem;
+        top: 4rem;
+    }
 
     .faqlogo {
-        width: 10rem; 
-        height: auto;
+        width: 100vw; 
+        /* height: auto;  */
         margin: 1rem; 
         padding: 5px; 
+        text-align: center;
+        left: 18rem;
     }
     .faqlogo img {
-        width: 50%;
-        height: auto;
+        width: 100px;
+        /* height: auto;  */
     }
 
     .faq-hero {
@@ -307,13 +332,37 @@ html {
 }
 
 /* Tablet CSS */
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 580px) and (max-width: 1024px) {
     html {
         font-size: 56.25%;
     }
 
     .FAQ {
         height: auto;
+    }
+    .faq-header {
+        position: relative;
+        justify-content: flex-start;
+    }
+    .faq-back img {
+        position: absolute;
+        width: 4%;
+        height: auto;
+        left: 11rem;
+        top: 3rem;
+    }
+
+    .faqlogo {
+        width: 100vw; 
+        /* height: auto;  */
+        margin: 1rem; 
+        padding: 5px; 
+        text-align: center;
+        left: 10rem;
+    }
+    .faqlogo img {
+        width: 100px;
+        /* height: auto;  */
     }
 
     .faqlogo {
