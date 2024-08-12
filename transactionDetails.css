@@ -163,6 +163,22 @@ textarea {
 
 }
 
+
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  display: none;
+}
+
+.success-message {
+  color: green;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+  display: none;
+}
+
 .text {
   color: #f8f8f8;
   background-color: #162a71;

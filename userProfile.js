@@ -46,4 +46,4 @@ function validateForm(event) {
 }
 
 // Event listener for the form submit button
-document.querySelector(".user-button").addEventListener("click", validateForm);
+document.querySelector(".user-button").addEventListener("click", validateForm).submit();

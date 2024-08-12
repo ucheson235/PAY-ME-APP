@@ -3,61 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/x-icon" href="/Pay-me-img/icon.png">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="/Pay-me-img/icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="transactionDetails.css">
   <title>Transaction Details</title>
 </head>
 <body>
-
-   <div class="transaction-details">
-      <img class="history-image" src="./Pay-me-img/hand.png"/>
+  <div class="transaction-details">
+    <img class="history-image" src="./Pay-me-img/hand.png" />
     <a href="/index.html"><img class="logo" src="./Pay-me-img/logo-pay.png" /></a>
 
     <div class="transaction-arrow"><img src="./Pay-me-img/icons/arrow.png" width="40" alt="arrow icon"></div>
     <div class="transaction">
       <h1>Your Transaction is Pending</h1>
-        <img src="./Pay-me-img/transaction-image.png" alt=""/>
+      <img src="./Pay-me-img/transaction-image.png" alt="" />
     </div>
 
     <div class="conditions">
       <div class="buyer-conditions">
         <h1>Buyer Terms/ Conditions</h1>
         <div class="input-field">
-          <textarea rows="4" cols="50">
-          </textarea>
+          <textarea rows="4" cols="50" id="buyer-terms"></textarea>
+          <span class="error-message" id="buyer-terms-error"></span>
         </div>
 
         <div class="transaction-code">
-          <h1>Transaction code </h1>
-            <textarea rows="4" cols="50" class="input-field2">
-            </textarea>
+          <h1>Transaction code</h1>
+          <textarea rows="4" cols="50" id="transaction-code"></textarea>
+          <span class="error-message" id="transaction-code-error"></span>
         </div>
       </div>
-  
-    <div class="seller-conditions">
-      <h1>Seller Terms/ Conditions</h1>
-        <textarea rows="4" cols="50">
-        </textarea>
-    
+
+      <div class="seller-conditions">
+        <h1>Seller Terms/ Conditions</h1>
+        <div class="input-field">
+          <textarea rows="4" cols="50" id="seller-terms"></textarea>
+          <span class="error-message" id="seller-terms-error"></span>
+        </div>
+      </div>
     </div>
+
+    <div class="transaction-group">
+      <h1>
+        <img src="./Pay-me-img/icons/infomation.png" width="20" alt="" />
+        A transaction code was sent to your email
+      </h1>
+      <a href="/PAYMENT-SECURE.html"><button class="text" id="proceed-button">Proceed</button></a>
     </div>
-      <div class="transaction-group">
-        <h1><img src="./Pay-me-img/icons/infomation.png" width="20"   alt="" />
-      A transaction code was sent to your email</h1>
-          <a href="/PAYMENT-SECURE.html"><button class="text">Proceed</button></a>
-      </div>   
-    </div>
-  
+    <div class="success-message" id="success-message"></div>
+  </div>
+
+  <script src="transactionDetails.js"></script>
 </body>
 </html>
