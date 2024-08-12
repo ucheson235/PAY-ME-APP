@@ -173,7 +173,7 @@ a:hover{
     padding-top: 200px;
     padding-left: 100px;
     position: absolute;
-    top: 10%;
+    top: 8%;
     color: white; 
     text-align: left; 
 }
@@ -193,7 +193,7 @@ a:hover{
     font-size: 2rem;
     line-height: 1.5;
     max-width: 700px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     
    
 
@@ -206,7 +206,7 @@ a:hover{
     color: #fff;
     border: 2px solid;
     border-color: #fff;
-    margin-top: 20px;
+    margin-top: 5px;
     
  }
 
