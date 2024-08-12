@@ -11,35 +11,55 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="container">
+      <nav class="sidebar mobile">
+        <div class="menuburger">
+          <div class="logo">
+            <img src="./image/LOGO.png" alt="logo" width="120px" />
+          </div>
+          <div class="menuMobile">
+            <a href="" class="hamburger"><i class="fa fa-bars"></i></a>
+            <div class="menu">Menu</div>
+          </div>
+        </div>
+      </nav>
       <nav class="sidebar">
         <div class="logo">
-         <a href="/index.html"> <img src="./image/LOGO.png" alt="logo" width="120px" /></a>
+          <a href="/index.html">
+            <img src="./image/LOGO.png" alt="logo" width="120px"
+          /></a>
         </div>
-        <div class="menu">Menu</div>
-        <ul>
+        <ul id="listMobile">
           <li class="active">
             <img src="./image/home.jpg" alt="icons" /><a href="">Dashboard</a>
           </li>
           <li>
-            <img src="./image/user.jpg" alt="icons" /><a href=""
+            <img src="./image/user.jpg" alt="icons" /><a
+              href="/PAY-ME-APP/userProfile.html"
               >User Profile</a
             >
           </li>
           <li>
-            <img src="./image/transactionH.jpg" alt="icons" /><a href=""
+            <img src="./image/transactionH.jpg" alt="icons" /><a
+              href="/PAY-ME-APP/transactionHistory.html"
               >Transaction History</a
             >
           </li>
           <li>
-            <img src="./image/setting.jpg" alt="icons" /><a href=""
+            <img src="./image/setting.jpg" alt="icons" /><a
+              href="/PAY-ME-APP/accSettings.html"
               >Account Settings</a
             >
           </li>
           <li>
-            <img src="./image/help-outline.jpg" alt="icons" /><a href=""
+            <img src="./image/help-outline.jpg" alt="icons" /><a
+              href="/PAY-ME-APP/help.html"
               >Help</a
             >
           </li>
@@ -99,8 +119,12 @@
               <h3>Recent Activity</h3>
             </div>
             <div class="search">
-              <input type="text" placeholder="Search" />
-              <img src="./image/ic_round-search.png" alt="seach-icon" />
+              <input type="text" placeholder="Search" id="searchInput" />
+              <img
+                src="./image/ic_round-search.png"
+                alt="seach-icon"
+                class="imgSearch"
+              />
             </div>
           </div>
           <table>
@@ -141,5 +165,7 @@
         </div>
       </main>
     </div>
+
+    <script src="./dashboard.js"></script>
   </body>
 </html>

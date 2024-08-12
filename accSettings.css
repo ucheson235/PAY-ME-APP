@@ -37,6 +37,10 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.hamburger {
+  display: none;
+}
+
 .logo-container {
   text-align: center;
   margin-bottom: 20px;
@@ -73,7 +77,6 @@ body {
 
 .menu li a:hover,
 .menu li.active a {
-  /* background-color: #ff7f00; */
   color: #ff7f00;
 }
 
@@ -120,6 +123,10 @@ body {
 
 .btn:hover {
   background-color: #ff7f00;
+}
+
+#upload {
+  display: none;
 }
 
 .delete-btn {
@@ -222,6 +229,31 @@ body {
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cover {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 1.5rem;
+    color: darkblue;
+  }
+  .main-content {
+    margin-left: 0;
+    padding: 10px;
+  }
   .form {
     grid-template-columns: 1fr;
   }
@@ -237,9 +269,15 @@ body {
 }
 
 @media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
   .sidebar {
-    width: 200px;
+    width: 100%;
     padding: 10px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
   }
 
   .main-content {
