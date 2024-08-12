@@ -147,7 +147,7 @@ a:hover{
 /* hero styles */
 
 .hero-div {
-    background-image: url(/Pay-me-img/hero-img1.png);
+    background-image: url(./Pay-me-img/hero-img1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

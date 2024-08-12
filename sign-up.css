@@ -27,7 +27,7 @@ body, html {
 
 .sign-up-image-section {
     flex: 1;
-    background-image: url('/Pay-me-img/sign-up-img.png'); /* Path to your image */
+    background-image: url('./Pay-me-img/sign-up-img.png'); /* Path to your image */
     background-size: cover;
     background-position: center;
 }

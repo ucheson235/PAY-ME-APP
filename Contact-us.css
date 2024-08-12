@@ -26,7 +26,7 @@ body, html {
 
 .contact-us-image-section {
     flex: 1;
-    background: url('/Pay-me-img/chart-img.png') no-repeat center center;
+    background: url('./Pay-me-img/chart-img.png') no-repeat center center;
     background-size: cover;
     display: flex;
     flex-direction: column;
