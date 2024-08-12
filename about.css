@@ -15,16 +15,13 @@ html {
   gap: 35px;
   padding: 5px;
   margin: 15px 150px;
-  align-items: center;
-  justify-content: center;
   flex-shrink: 0;
 }
 
+
 .logo {
-  align-self: flex-start;
   width: 14rem;
-  margin: 15px;
-  margin-left: 2px;
+  /* margin: 15px; */
   cursor: pointer;
 }
 
@@ -43,7 +40,6 @@ html {
   line-height: 32px;
   font-weight: 700;
   padding-bottom: 14px;
-  text-align: center;
   margin-top: 20px;
   position: relative;
 }
@@ -159,10 +155,8 @@ html {
 .about-us-footer {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 130px;
   align-items: left;
   background-color: #0a1436;
-  width: 97vw;
   color: white;
   padding-bottom: 30px;
 }
@@ -258,6 +252,8 @@ html {
 
 .social-icons {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   gap: 1.5rem;
   cursor: pointer;
@@ -265,6 +261,7 @@ html {
 
 .social-icons img {
   width: 30px;
+  
 
 
 }
@@ -303,7 +300,7 @@ html {
   }
 
   .logo {
-    width: 12rem;
+    width: 10rem;
   }
 
   .about-us h1 {
@@ -371,6 +368,7 @@ html {
     display: none;
   }
 
+ 
   .about-us h1,
   .our-vision-text h1,
   .our-mission-text h1,
