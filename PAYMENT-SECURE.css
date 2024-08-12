@@ -194,7 +194,7 @@ header {
 footer {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 98vw;
     height: 40vh;
     font-family: manrope;
     margin-top: 5rem;
