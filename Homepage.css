@@ -213,23 +213,7 @@ a:hover{
     background-color:  #007AFF;
  }
 
-/* .hero-text a{
-    padding: 10px 40px;
-    font-size: 3rem;
-    margin-top: 30px;
-    background-color: transparent;
-    color: #f8f8f8;
-    border: 1 solid #f8f8f8;
-    border-color: #f8f8f8;
 
-}
-
-.hero button:hover{
-    background-color: #007AFF;
-    border: none;
-} */
-
-/* choose styles  */
 
 .choose{
     display: flex;
@@ -365,7 +349,7 @@ span{
 
 .read{
     text-align: center;
-    margin: 200px;
+    margin: 100px;
 }
 
 .read button{
@@ -521,26 +505,26 @@ span{
 }
 
 #choose-img{
-    width: 500px; 
-    margin-left: 50px;
+    width: 450px; 
+    margin-left: 10px;
     margin-top: 50px;
 }
 
 
 .work-div h1{
-    font-size: 5rem;
-    margin-bottom: 100px;
+    font-size: 4rem;
+    margin-bottom: 20px;
     
 }
 
 .work-card{
     display: block;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .card{
-    margin-top: 50px;
+    margin-top: 10px;
     width: 300px;
     
     
@@ -572,12 +556,12 @@ footer {
 }
 
 .footer-div h2{
-    font-size: 4rem;
-    margin: 30px;
+    font-size: 2rem;
+    margin: 20px;
    
 }
 .footer-div h3{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 25px;
     
 }
