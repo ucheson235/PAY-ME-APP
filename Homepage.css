@@ -170,7 +170,8 @@ a:hover{
 
 
 .hero-text {
-    padding:200px; 
+    padding-top: 200px;
+    padding-left: 100px;
     position: absolute;
     top: 10%;
     color: white; 
@@ -178,10 +179,10 @@ a:hover{
 }
 
 .hero-text h2{
-    font-size: 7rem;
+    font-size: 5rem;
     color: #f8f8f8;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     
 
 }
@@ -189,7 +190,7 @@ a:hover{
 .hero-text p{
     color: #f8f8f8;
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.5;
     max-width: 700px;
     margin-bottom: 50px;
@@ -227,7 +228,7 @@ a:hover{
 }
 
 .choose-text h1{
-    font-size: 10rem;
+    font-size: 7rem;
     font-weight: bolder;
     font-family: 'Manrope';
     color: #0D1944;
@@ -236,14 +237,14 @@ a:hover{
 
 
 .choose-text p{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #0D1944;
     margin-bottom: 50px;
 }
 
 
 .choose-text h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 300;
     color: #0D1944;
     margin-bottom: 50px;
@@ -259,10 +260,10 @@ span{
 
 .work-div h1{
     text-align: center;
-    font-size: 10rem;
+    font-size: 7rem;
     font-weight: bold;
     color: #0D1944;
-    padding: 100px;
+    padding: 50px;
 }
 
 .work-card{
@@ -369,26 +370,26 @@ span{
 
 footer {
     display: flex;
-    justify-content: space-between;
-    padding: 200px;
+    justify-content: space-evenly;
+    padding: 50px;
     background-color: #0D1944;
 }
 
 .footer-div{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 30px;
     
 }
 
 .footer-div h2{
-    font-size: 4rem;
-    margin: 50px;
+    font-size: 3rem;
+    margin: 30px;
     color: #f8f8f8;
 }
 .footer-div h3{
-    font-size: 2.5rem;
-    margin: 50px;
+    font-size: 2rem;
+    margin: 30px;
     color: #f8f8f8;
 }
 
@@ -402,18 +403,18 @@ footer {
 }
 
 .social{
-    margin: 50px;
+    margin: 30px;
     color: #f8f8f8;
-    font-size: 3rem;
+    font-size: 2rem;
     
 }
 
 .social h2{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .social img{
-    width: 50px;
+    width: 30px;
     margin: 20px;
    
     
@@ -561,8 +562,8 @@ footer {
    
 }
 .footer-div h3{
-    font-size: 2rem;
-    margin: 25px;
+    font-size: 1.5rem;
+    margin: 30px;
     
 }
 
