@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="userProfile.css" />
-    <link rel="icon" type="image/x-icon" href="../images/icon.png">
+    <link rel="icon" type="image/x-icon" href="../images/icon.png" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>User Profile</title>
   </head>
   <body>
@@ -19,120 +19,145 @@
       <div class="orange-frame"></div>
       <div class="blue-frame"></div>
       <div class="user-profile-id">
-        <img src="../images/lady.png" />
+        <img src="./Pay-me-img/lady.png" alt="User Profile Image" />
         <div class="user-id">
           <h1>#user id</h1>
         </div>
       </div>
 
-      
-      <div class="side-bar">
-       <a href="/index.html"> <img class="logo" src="../images/logo.png" /></a>
-        <h1 class="side-bar-text">MENU</h1>
+      <div class="user-side-bar">
+        <img class="logo" src="./Pay-me-img/logo-pay.png" alt="Logo" />
+        <h1 class="user-side-bar-text">MENU</h1>
         <div class="user-nav-links">
-          <a id="dashboard" href="/dashboard.html"><div class="dashboard">
-            <h1>
-              <img
-                class="dashboard-image"
-                src="../icons/dashboard.png"
-                width="20"
-                alt="dashboard icon"
-              />Dashboard
-            </h1>
-          </div></a>
+          <a href="/index.html">
+            <div class="dashboard">
+              <h1>
+                <img
+                  class="dashboard-image"
+                  src="./Pay-me-img/icons/dashboard.png"
+                  width="20"
+                  alt="dashboard icon"
+                />
+                Dashboard
+              </h1>
+            </div>
+          </a>
 
+          <a href="/UserProfile.html">
             <div class="profile">
               <h1>
                 <img
                   class="profile-image"
-                  src="../icons/user.png"
+                  src="./Pay-me-img/icons/user.png"
                   width="20"
                   alt="profile icon"
-                />User Profile
+                />
+                User Profile
               </h1>
             </div>
-
-          <a id="transaction"href="/transactionHistory.html"><div class="transaction">
-            <h1>
-              <img
-                class="transaction-image"
-                src="../icons/transaction.png"
-                width="20"
-                alt="transaction icon"
-              />Transaction History
-            </h1>
-          </div></a>
-
-          <a id="account" href="/accSettings.html"> <div class="account">
-            <h1>
-              <img
-                class="account-image"
-                src="../icons/accounts.png"
-                width="20"
-                alt="account icon"
-              />Account Settings
-            </h1>
-          </div>
           </a>
-            <a id="help" href="/help.html"><div class="help">
+
+          <a href="/transcationHistory.html">
+            <div class="transaction">
+              <h1>
+                <img
+                  class="transaction-image"
+                  src="./Pay-me-img/icons/transaction.png"
+                  width="20"
+                  alt="transaction icon"
+                />
+                Transaction History
+              </h1>
+            </div>
+          </a>
+
+          <a href="/acctSettings.html">
+            <div class="account">
+              <h1>
+                <img
+                  class="account-image"
+                  src="./Pay-me-img/icons/accounts.png"
+                  width="20"
+                  alt="account icon"
+                />
+                Account Settings
+              </h1>
+            </div>
+          </a>
+
+          <a href="/help.html">
+            <div class="help">
               <h1>
                 <img
                   class="help-image"
-                  src="../icons/help.png"
+                  src="./Pay-me-img/icons/help.png"
                   width="20"
                   alt="help icon"
-                />Help
+                />
+                Help
               </h1>
             </div>
-           </a>
-         <a id="log-out"href="/Homepage.html"> <div class="log-out">
-          <h1>
-            <img
-              class="log-out-image"
-              src="../icons/logout.png"
-              width="20"
-              alt="Log Out icon"
-            />Log Out
-          </h1>
-        </div></a>
+          </a>
+
+          <div class="log-out">
+            <h1>
+              <img
+                class="log-out-image"
+                src="./Pay-me-img/icons/logout.png"
+                width="20"
+                alt="Log Out icon"
+              />
+              Log Out
+            </h1>
+          </div>
         </div>
       </div>
-
       <form>
         <div class="form-row">
           <label for="fname">First Name</label>
-          <input type="text" id="fname" name="fname" />
+          <input type="text" id="fname" name="First Name" />
+          <div class="error-message" id="fnameError"></div>
         </div>
         <div class="form-row">
           <label for="lname">Last Name</label>
           <input type="text" id="lname" name="lname" />
+          <div class="error-message" id="lnameError"></div>
         </div>
         <div class="form-row">
           <label for="phone">Phone Number</label>
-          <input type="text" id="phone" name="phone" />
+          <input type="text" id="phone" name="Phone Number" />
+          <div class="error-message" id="phoneError"></div>
         </div>
         <div class="form-row">
           <label for="email">Email Address</label>
-          <input type="text" id="email" name="email" />
+          <input type="text" id="email" name="Email Address" />
+          <div class="error-message" id="emailError"></div>
         </div>
         <div class="form-row">
           <label for="state">State</label>
-          <input type="text" id="state" name="state" />
+          <input type="text" id="state" name="State" />
+          <div class="error-message" id="stateError"></div>
         </div>
         <div class="form-row">
           <label for="address">Home Address</label>
-          <input type="text" id="address" name="address" />
+          <input type="text" id="address" name="Home Address" />
+          <div class="error-message" id="addressError"></div>
         </div>
         <div class="form-row">
           <label for="region">Region</label>
-          <input type="text" id="region" name="region" />
+          <input type="text" id="region" name="Region" />
+          <div class="error-message" id="regionError"></div>
         </div>
         <div class="form-row">
           <label for="country">Country</label>
-          <input type="text" id="country" name="country" />
+          <input type="text" id="country" name="Country" />
+          <div class="error-message" id="countryError"></div>
         </div>
       </form>
-      <button class="user-button">Submit</button>
+      <button class="user-button" type="button">Submit</button>
+        <div class="success-message" id="successMessage"></div>
     </div>
+
+    <script src="userProfile.js"></script>
   </body>
 </html>
