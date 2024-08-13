@@ -17,7 +17,7 @@ function validateForm(event) {
     let formIsValid = true;
 
     // Loop through each field to validate
-    formFields.forEach(field => {
+    for (let field of formFields) {
         const inputElement = document.getElementById(field.id);
         const errorElement = document.getElementById(field.id + "Error");
 
@@ -25,10 +25,11 @@ function validateForm(event) {
             errorElement.textContent = `${field.name} is required.`;
             errorElement.style.display = "block";
             formIsValid = false;
+            break; // Stop further validation as soon as a field is found invalid
         } else {
             errorElement.style.display = "none";
         }
-    });
+    }
 
     // If the form is valid, show a success message and then redirect
     if (formIsValid) {
@@ -46,4 +47,4 @@ function validateForm(event) {
 }
 
 // Event listener for the form submit button
-document.querySelector(".user-button").addEventListener("click", validateForm).submit();
+document.querySelector(".user-button").addEventListener("click", validateForm);
