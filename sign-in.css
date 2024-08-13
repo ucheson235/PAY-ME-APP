@@ -197,8 +197,8 @@ input {
 .success-message {
   color: green;
   font-size: 1.8rem;
-  text-align: center;
-  margin-top: 17px;
+  text-align:right;
+  margin-top: 15px;
 
 }
 
