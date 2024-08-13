@@ -250,6 +250,10 @@ table button:hover {
   border-radius: 6px;
 }
 
+.btn-transaction a {
+  color: #fff;
+  text-decoration: none;
+}
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
   .container {
