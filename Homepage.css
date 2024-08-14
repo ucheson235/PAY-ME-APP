@@ -710,6 +710,45 @@ footer {
         font-size: 1.5rem;
         
     }
+
+    .choose{
+        padding: 50px;
+        
+    }
+    .choose-text{
+        padding-top: 50px;
+        
+    }
+    
+    .choose-text h1{
+        font-size: 5rem;
+        margin-bottom: 20px;
+    }
+    
+    
+    .choose-text p{
+        font-size: 1.5rem;
+        
+    }
+    
+    
+    .choose-text h3{
+        font-size: 2rem;
+     
+        
+    }
+    
+    span{
+        margin-right: 5px;
+    }
+    span img{
+       width: 30px;
+    }
+
+    .work-div h1{
+        font-size: 5rem;
+        padding: 30px;
+    }
     
 
 }
