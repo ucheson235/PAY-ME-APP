@@ -18,13 +18,13 @@ document.querySelector(".sign-in-button").addEventListener("click", function(eve
 
     // Validate the input fields
     if (email === "") {
-        emailError.textContent = "Please enter your email";
+        emailError.textContent = "Enter your email";
         console.log("Email is required");
         return; // Exit if email is not valid
     }
 
     if (password === "") {
-        passwordError.textContent = "Please enter your password";
+        passwordError.textContent = "Enter your password";
         console.log("Password is required");
         return; // Exit if password is not valid
     }
