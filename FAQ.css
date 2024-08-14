@@ -35,6 +35,7 @@ html {
     padding: 10px;
     margin-top: 4rem;
     margin-left: 12rem;
+    margin-bottom: 4rem;
 }
 .faqlogo img {
     width: 100%;
@@ -190,7 +191,7 @@ html {
     border: none;
 }
 #faqbtn:hover {
-    background-color: #f89b58;
+    background-color: #BD692C;
 }
 #faqbtn a {
     text-decoration: none;
@@ -218,15 +219,17 @@ html {
         width: 4%;
         height: auto;
         left: 6rem;
-        top: 4rem;
+        top: 3rem;
     }
 
     .faqlogo {
-        width: 100vw;
+        position: absolute;
+        width: 25vw;
+        height: 8vh;
         margin: 1rem; 
         padding: 5px; 
         text-align: center;
-        left: 18rem;
+        left:23rem;
     }
     .faqlogo img {
         width: 100px;
@@ -235,7 +238,7 @@ html {
     .faq-hero {
         flex-direction: column;
         height: auto;
-        margin-top: 6rem;
+        margin-top: 8rem;
     }
 
     .faq-herotext {
@@ -243,6 +246,7 @@ html {
         margin: 0;
         padding: 10px;
         text-align: center;
+        margin-top: 5rem;
     }
 
     .faq-herotext h3 {

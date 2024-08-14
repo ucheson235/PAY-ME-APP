@@ -272,7 +272,7 @@ footer {
     margin-top: 10rem;
 }
 #securebtn:hover {
-    background-color: #E37E35;
+    background-color: #1D3896;
 }
 #securebtn a {
     text-decoration: none;
@@ -285,16 +285,17 @@ footer {
 /* Mobile Devices */
 @media (max-width: 767px) {
     .payment-secure-container {
-        padding: 0 10px;
-        gap: 24px;
+        padding: 0;
+        height: 150vh;
+       
     }
 
     header {
-        height: 20rem;
+        height: 10rem;
         background-size: cover;
         background-position: center;
-        border-bottom-left-radius: 80px; 
-        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 50px; 
+        border-bottom-right-radius: 50px;
     }
 
     .paysec-logo {
@@ -310,9 +311,8 @@ footer {
     }
 
     .pay-sec-content {
-        width: 100%;
-        padding: 0 10px;
-        gap: 16px;
+        width: 94%;
+        padding: 5px;
     }
 
     .transaction-notice {
@@ -428,7 +428,7 @@ footer {
         margin-top: 5rem;
     }
     #securebtn:hover {
-        background-color: #E37E35;
+        background-color: #1D3896;
     }
     #securebtn a {
         text-decoration: none;
@@ -584,7 +584,7 @@ footer {
         margin-top: 10rem;
     }
     #securebtn:hover {
-        background-color: #E37E35;
+        background-color: #1D3896;
     }
     #securebtn a {
         text-decoration: none;
