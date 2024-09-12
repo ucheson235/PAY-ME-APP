@@ -485,7 +485,7 @@ footer {
 
 .choose{
     display: block;
-    padding: 10px;
+    padding: 0;
 }
 
 .choose-text h1{
@@ -509,12 +509,16 @@ span{
     margin-right: 20px;
 }
 
-#choose-img{
-    width: 450px; 
-    margin-left: 10px;
+.choose-img {
+    width: 300px; 
+    margin-left: 5px;
     margin-top: 50px;
 }
 
+.choose-img img {
+    width: 100%; 
+   
+}
 
 .work-div h1{
     font-size: 4rem;
@@ -525,7 +529,7 @@ span{
 .work-card{
     display: block;
     text-align: center;
-    margin-left: 100px;
+    margin: 0 auto;
 }
 
 .card{
@@ -550,24 +554,24 @@ span{
 
 footer {
     display: block;
-    padding: 10px;
+    padding: 5px;
     
 }
 
 .footer-div{
     display: flex;
-    margin: 10px;
+    margin: 5px;
     
 }
 
 .footer-div h2{
     font-size: 1.5rem;
-    margin: 20px;
+    margin: 10px;
    
 }
 .footer-div h3{
     font-size: 1rem;
-    margin: 30px;
+    margin: 15px;
     
 }
 
@@ -599,11 +603,23 @@ footer {
         margin-right: 30px;
         
     }
+    .btn-sign-up{
+        padding: 10px 20px;
+        font-size: 2.5rem;
+        margin-right: 30px;
+        
+    }
    
 
-    #choose-img{
-        width: 500px;
-        margin-left: 30px;
+    .choose-img {
+        width: 300px; 
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    
+    .choose-img img {
+        width: 100%; 
+       
     }
 
     .choose-text h1{
@@ -630,8 +646,9 @@ footer {
     
 
     .work-card{
-        padding-left: 0;
-        padding-right: 0;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
     }
 
    .card{
@@ -699,6 +716,13 @@ footer {
        
         
          
+    }
+
+    .btn-sign-in{
+        padding: 5px 10px;
+        font-size: 1.5rem;
+        margin-right: 10px;
+        
     }
 
     .btn-sign-in{
