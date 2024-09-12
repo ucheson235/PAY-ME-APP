@@ -465,17 +465,22 @@ footer {
 
  .hero-text {
     padding:20px; 
-    top: 10%;
+    top: 30%;
     
 }
 
 .hero-text h2{
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 .hero-text p{
-    font-size: 2.5rem;
+    font-size: 1rem;
    
 
+}
+
+.btn-sign-up{
+    padding: 5px 10px;
+    font-size: 1rem;
 }
 
 .choose{
@@ -594,10 +599,7 @@ footer {
         margin-right: 30px;
         
     }
-    .btn-sign-up{
-        padding: 10px 20px;
-        font-size: 2.5rem;
-    }
+   
 
     #choose-img{
         width: 500px;
@@ -705,11 +707,7 @@ footer {
         margin-right: 10px;
         
     }
-    .btn-sign-up{
-        padding: 5px 10px;
-        font-size: 1.5rem;
-        
-    }
+
 
     .choose{
         padding: 50px;
