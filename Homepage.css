@@ -257,7 +257,7 @@ span{
 
 /* work styles  */
 
-.work-div h1{
+/* .work-div h1{
     text-align: center;
     font-size: 7rem;
     font-weight: bold;
@@ -291,7 +291,7 @@ span{
 } */
 
 
-.card h3{
+/* .card h3{
    margin-top: 30px;
     font-size: 2rem;
     color: #0D1944;
@@ -337,6 +337,70 @@ span{
 .card:hover h3,
 .card:hover h4 {
     color: #fff;
+}
+ */ 
+
+ .work {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.work-div h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.work-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.img-div img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.btn-div button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #333;
+}
+
+h4 {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+    line-height: 1.6;
 }
 
 
@@ -510,7 +574,7 @@ span{
 }
 
 .choose-img {
-    width: 300px; 
+    width: 400px; 
     margin-left: 5px;
     margin-top: 50px;
 }
@@ -526,10 +590,10 @@ span{
     
 }
 
-.work-card{
-    display: block;
+.work {
     text-align: center;
-    margin: 0 auto;
+    padding: 30px 0;  
+    background-color: #f9f9f9;
 }
 
 .card{
@@ -612,7 +676,7 @@ footer {
    
 
     .choose-img {
-        width: 300px; 
+        width: 400px; 
         margin-left: 5px;
         margin-top: 50px;
     }
@@ -645,10 +709,10 @@ footer {
     }
     
 
-    .work-card{
-        display: block;
+    .work {
         text-align: center;
-        margin: 0 auto;
+        padding: 30px 0;  
+        background-color: #f9f9f9;
     }
 
    .card{
